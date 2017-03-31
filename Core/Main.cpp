@@ -19,7 +19,7 @@ BOOL WINAPI OpenConsole(LPCSTR ConsoleTitle)
 
 VOID WINAPI OVMEntry()
 {
-	OpenConsole("OVM2 Beta - by Louka @ V3rmillion");
+	OpenConsole("OVM2 Beta - by the public <3");
 
 }
 
