@@ -1,0 +1,32 @@
+﻿  Scan.cpp
+c:\users\reece\desktop\ovm2-master\utilities\scan.cpp(19): error C2572: 'Memory::Scan': redefinition of default argument: parameter 1
+  c:\users\reece\desktop\ovm2-master\utilities\scan.h(9): note: see declaration of 'Memory::Scan'
+c:\users\reece\desktop\ovm2-master\utilities\scan.cpp(33): error C2352: 'Memory::FindPattern': illegal call of non-static member function
+  c:\users\reece\desktop\ovm2-master\utilities\scan.cpp(12): note: see declaration of 'Memory::FindPattern'
+c:\users\reece\desktop\ovm2-master\utilities\scan.cpp(51): error C2352: 'Memory::FindPattern': illegal call of non-static member function
+  c:\users\reece\desktop\ovm2-master\utilities\scan.cpp(12): note: see declaration of 'Memory::FindPattern'
+  RevVM.cpp
+c:\users\reece\desktop\ovm2-master\rev\revvm.hpp(5): error C2065: 'r_lua_State': undeclared identifier
+c:\users\reece\desktop\ovm2-master\rev\revvm.hpp(5): error C2146: syntax error: missing ')' before identifier 'rL'
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(5): error C2065: 'r_lua_State': undeclared identifier
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(5): error C2146: syntax error: missing ')' before identifier 'rL'
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(6): error C2065: 'r_lua_State': undeclared identifier
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(6): error C2146: syntax error: missing ')' before identifier 'RL'
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(54): warning C4091: 'typedef ': ignored on left of 'r_LClosure' when no variable is declared
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(66): warning C4091: 'typedef ': ignored on left of 'r_CClosure' when no variable is declared
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(76): warning C4091: 'typedef ': ignored on left of 'r_TString' when no variable is declared
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(88): warning C4091: 'typedef ': ignored on left of 'r_Udata' when no variable is declared
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(94): warning C4091: 'typedef ': ignored on left of 'r_LocVar' when no variable is declared
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(122): warning C4091: 'typedef ': ignored on left of 'r_Proto' when no variable is declared
+c:\users\reece\desktop\ovm2-master\rev\revlint.hpp(145): warning C4003: not enough actual parameters for macro 'LUAVM_SHUFFLE7'
+  RevLAPI.cpp
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(5): error C2065: 'r_lua_State': undeclared identifier
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(5): error C2146: syntax error: missing ')' before identifier 'rL'
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(6): error C2065: 'r_lua_State': undeclared identifier
+c:\users\reece\desktop\ovm2-master\rev\revlapi.hpp(6): error C2146: syntax error: missing ')' before identifier 'RL'
+  Main.cpp
+c:\users\reece\desktop\ovm2-master\core\main.cpp(15): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(242): note: see declaration of 'freopen'
+c:\users\reece\desktop\ovm2-master\core\main.cpp(16): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(242): note: see declaration of 'freopen'
+  Generating Code...
